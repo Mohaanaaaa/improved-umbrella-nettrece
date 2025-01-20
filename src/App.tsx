@@ -104,6 +104,13 @@ Organization: ${ipData.org}
           <p className="text-sm sm:text-base text-gray-400">Decrypt the digital footprint. Track any IP in the network.</p>
         </div>
 
+        {/* New warning message section */}
+        <div className="bg-yellow-500/10 border-l-4 border-yellow-500 p-4 mb-4 mx-4 sm:mx-0">
+          <p className="text-yellow-700 text-sm sm:text-base">
+          **Note:** This tool is provided solely for educational purposes. It is intended to help users understand IP address geography and network identification. The information obtained should not be used for any illegal or unethical activities. Always respect privacy and legal considerations when handling personal or sensitive data related to IP addresses. Use this tool responsibly.
+          </p>
+        </div>
+
         <form onSubmit={handleSubmit} className="mb-6 sm:mb-8">
           <div className="relative max-w-xl mx-auto">
             <input
